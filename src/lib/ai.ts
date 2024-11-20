@@ -1,7 +1,7 @@
 import { Message } from '../types';
 
 const API_URL = 'https://generativelanguage.googleapis.com/v1beta/chat/completions';
-const API_KEY = 'AIzaSyBzjs8r5ga5fuZmrLwIq_dI1TYK4IdbeQ4';
+const API_KEY = '';
 
 export const generateResponse = async (messages: Message[]) => {
   try {
