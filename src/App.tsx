@@ -24,7 +24,7 @@ function App() {
     setError(null);
 
     try {
-      const response = await generateResponse(messages);
+      const response = await generateResponse(content, messages);
       addMessage(response);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An error occurred');
